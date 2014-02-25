@@ -42,14 +42,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1A7287DCCC95AD03A23EE078 /* NSDateExtensions */ = {
+		1A7287DCCC95AD03A23EE078 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				1A728E68DE4FFC5775AFBCCF /* Supporting Files */,
 				1A728CEFB5454075796B0093 /* NSDateExtensionsTests.m */,
-				1A72835E154303C14B6A6817 /* NSDate+Extensions.m */,
-				1A7283E43F2B45B234CFF18A /* NSDate+Extensions.h */,
 			);
+			name = Tests;
 			path = NSDateExtensions;
 			sourceTree = "<group>";
 		};
@@ -64,9 +63,10 @@
 		1A728CF62159A752BE95E9A2 = {
 			isa = PBXGroup;
 			children = (
+				C5750C4918BCD328001E64C8 /* NSDateExtensions */,
 				1A728BFD0C1699C370EEDCE4 /* Products */,
 				1A728E901A7EF51712D40BCB /* Frameworks */,
-				1A7287DCCC95AD03A23EE078 /* NSDateExtensions */,
+				1A7287DCCC95AD03A23EE078 /* Tests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +88,15 @@
 				1A728676C09EA842CA44AE6F /* UIKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5750C4918BCD328001E64C8 /* NSDateExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				1A72835E154303C14B6A6817 /* NSDate+Extensions.m */,
+				1A7283E43F2B45B234CFF18A /* NSDate+Extensions.h */,
+			);
+			path = NSDateExtensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
